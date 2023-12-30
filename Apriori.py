@@ -86,7 +86,10 @@ def Ariori() :
 Ariori()
 printL()
 # print(L)
-#luat ket hop
+
+
+
+#_____________Luat ket hop____________________
 
 Rules =list()
 def newRule(left ,right,conf ):
@@ -147,20 +150,3 @@ def AssociationRules(L):
         
 AssociationRules(L)
 printRules(Rules)
-#A B C D
-# A -> bcd
-# ab->cd
-# ac ->dab
-# abc->d
- 
-# b-> cda
-# bc->da
-# bcd->a
- 
-# c-> dab
-# cd->ab
-# cda -> b
- 
-# d ->  abc
-# da -> bc
-# dab -> c
